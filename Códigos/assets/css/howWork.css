@@ -1,0 +1,73 @@
+.howWork {
+    padding: 40px 0;
+
+    background: rgb(1, 0, 5);
+    background: -moz-linear-gradient(180deg, rgba(1, 0, 5, 1) 15%, rgba(5, 0, 30, 1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(1, 0, 5, 1) 15%, rgba(5, 0, 30, 1) 100%);
+    background: linear-gradient(180deg, rgba(1, 0, 5, 1) 15%, rgba(5, 0, 30, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#010005", endColorstr="#05001e", GradientType=1);
+}
+
+.howWork .divider {
+    width: 100%;
+    height: 2px;
+
+    background-color: #fff;
+
+    position: relative;
+
+    margin-bottom: 80px;
+}
+
+.howWork .divider .text {
+    position: absolute;
+
+    height: auto;
+
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 0 32px;
+
+    background-color: #010005;
+
+    text-align: center;
+
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.howWork .image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.howWork .paragraphs {
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+.howWork .paragraphs p {
+    text-align: justify;
+
+    font-size: 16px;
+    font-weight: 400;
+
+    margin-bottom: 16px;
+
+    text-indent: 32px;
+}
+
+.howWork .paragraphs p:last-of-type {
+    margin-bottom: 0;
+}
+
+.howWork .reference {
+    display: flex;
+    justify-content: center;
+}

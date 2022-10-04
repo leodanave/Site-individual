@@ -5,17 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/hero.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/cards.css">
+    <link rel="stylesheet" href="./assets/css/howWork.css">
+    <link rel="shortcut icon" href="assets/images/Logo.png" type="image/x-icon">
+
     <title>Da Nave Games</title>
 </head>
 
 <body>
 
-    <header class="header">
+    <header class="header" id="header">
         <div class="content">
             <a href="">
-                <img src="./Images/Logo.png" alt="">
+                <img src="./assets/images/Logo.png" alt="">
             </a>
             <nav class="navbar">
                 <ul class="list-items">
@@ -30,10 +35,73 @@
     <section class="banner">
         <div class="content">
             <div class="background">
-                
+            </div>
+
+            <h1 class="divider">
+                Jogos Competitivos
+            </h1>
+        </div>
+    </section>
+
+    <section class="cards">
+        <div class="container">
+            <div class="flex">
+                <div class="card card__animation">
+                    <a href=""><img src="assets/images/cards/csgo.jpg" alt=""></a>
+                </div>
+                <div class="card card__animation">
+                    <a href="https://playvalorant.com/pt-br/" target="_blank"><img
+                            src="assets/images/cards/valorant.jpg" alt=""></a>
+                </div>
+                <div class="card card__animation">
+                    <a href=""><img src="assets/images/cards/fortnite.jpg" alt=""></a>
+                </div>
             </div>
         </div>
     </section>
+
+    <section class="howWork">
+        <div class="container">
+            <div class="divider">
+                <h2 class="text">
+                    Como funcionam?
+                </h2>
+            </div>
+
+            <div class="flex gap-120">
+                <div class="f-grow">
+                    <div class="image">
+                        <img src="assets/images/cards/fortnite.jpg">
+                        <div class="reference">
+                            Imagem de <a
+                                href="https://br.freepik.com/vetores-gratis/ola-letras-de-conceito-de-inverno_6073480.htm#query=inverno&position=1&from_view=keyword">
+                                Freepik</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="f-grow">
+                    <div class="paragraphs">
+                        <p>
+                            Jogos Competitivos tem a finalidade de estimular a competição entre os participantes. Porém,
+                            a
+                            competição deve ser saudável, educativa, para ensinar que perder ou ganhar não é o que
+                            importa,
+                            mas sim fazer com que todos trabalhem por um objetivo em comum.
+                        </p>
+                        <p>
+                            O objetivo é fazer com que seja estimulado não apenas a competitividade, mas em especial o
+                            raciocínio.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/js/header.js"></script>
 
 </body>
 
