@@ -1,7 +1,7 @@
 header {
     width: 100%;
     height: 90px;
-
+    background-color: #05001E;
     position: absolute;
 
     top: 0;
@@ -23,7 +23,7 @@ header {
     /* Animação */
     opacity: 0;
     transform: translateY(-90px);
-    animation: slide 0.2s forwards;
+    animation: slide 0.4s forwards;
 }
 
 .header .content {
