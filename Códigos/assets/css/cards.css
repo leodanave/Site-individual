@@ -19,13 +19,32 @@
     box-shadow: -5px 5px 4px rgba(0, 0, 0, 0.25);
 
     transition: all 0.2s;
-
+    position: relative;
+    border: 1px solid red;
+    
     /* opacity: 0;
     transform: translateY(-90px); */
 }
 
+.cards .card h3 {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    border: 1px solid red;
+    width: 70%;
+    word-wrap: break-word;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.cards .card h3:hover {
+    transition: 0.5s;
+    opacity: 1;
+}
+
 .cards .card:hover {
     transform: scale(1.05);
+    opacity: 0.3;
 }
 
 .cards .card:last-of-type {
