@@ -20,31 +20,34 @@
 
     transition: all 0.2s;
     position: relative;
-    border: 1px solid red;
-    
+
     /* opacity: 0;
     transform: translateY(-90px); */
 }
 
 .cards .card h3 {
     position: absolute;
-    top: 35%;
-    left: 15%;
-    border: 1px solid red;
-    width: 70%;
+    height: 250px;
+    width: 450px;
+    width: 100%;
     word-wrap: break-word;
     opacity: 0;
-    transition: 0.5s;
+    transition: 0.3s;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    background-color: rgba(3, 0, 17, 0.8); 
+}
+
+.cards .card:hover {
+    transform: scale(1.05);
 }
 
 .cards .card h3:hover {
     transition: 0.5s;
     opacity: 1;
-}
 
-.cards .card:hover {
-    transform: scale(1.05);
-    opacity: 0.3;
 }
 
 .cards .card:last-of-type {
