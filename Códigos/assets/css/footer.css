@@ -1,0 +1,21 @@
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: #03000f;
+}
+
+.footer .links {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links .text_footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.links .image_footer {
+    display: flex;
+    align-items: center;
+}
